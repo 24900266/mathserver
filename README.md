@@ -29,9 +29,13 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 # PROGRAM :
+```
+settings.py
+
 math.html
 
 {% load static %}
+<!DOCTYPE html>
 <html>
 <head>
     <title>math</title>
@@ -131,6 +135,7 @@ urlpatterns = [
     path('powerlamp/',views.powerlamp,name="powerlamp"),
     path('',views.powerlamp,name="powerlamproot")
 ]
+```
 # SERVER SIDE PROCESSING:
 ![Screenshot 2024-12-08 230319](https://github.com/user-attachments/assets/a4429c7b-abb5-45ea-a588-3bcd1274c05b)
 
